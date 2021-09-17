@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+}
+
+body{
+    font-size: 64.2%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 2rem 9%;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: .5rem solid #eee;
+}
+
+section{
+    padding: 2rem 9%;
+    margin-bottom: 2rem;
+}
+.first .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.first .header h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.first .header .link{
+    padding: 1.5rem 3.5rem;
+    background:#000;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: transform .2s ease-out;
+}
+.first .header a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.first .banner-image{
+    position: relative;
+}
+
+.first .banner-image img{
+    width: 100%;
+
+}
+.first .banner-image a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 3rem;
+    background:#fff;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.two .grid-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: .5rem solid #eee;
+    padding-bottom: 4rem;
+}
+
+.two .grid-container .box-1{
+    flex: 1 1 50rem;
+}
+.two .grid-container .box-1 h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.two .grid-container .box-1 .pet{
+    font-size: 1.5rem;
+    color: rgb(156, 154, 154);
+}
+.two .grid-container .box-1 .text1{
+    width: 50rem;
+    font-size: 1.5rem;
+    color: rgb(122, 120, 120)
+}
+.two .grid-container .box-2 h3{
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.two .grid-container .box-2 .img img{
+    margin-left: 1rem;
+}
+.two .grid-container .box-2 p{
+    text-align: right;
+    font-size: 1.5rem;
+    color: rgb(122, 120, 120);
+    margin-top: 1rem;
+}
+.three .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.three .header .left h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.three .header .left span{
+    color: rgb(122, 120, 120);
+}
+.three .header .right .text{
+    font-size: 1.5rem;
+    color: rgb(122, 120, 120);
+    margin-right: .5rem;
+}
+
+.three .header .right i{
+    font-size: 1rem;
+}
+
+.three .body{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+}
+
+.three .body .box{
+    position: relative;
+
+}
+.three .body .box img{
+    width: 100%;
+    
+}
+
+.three .body .box .cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: #000;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.three .body .divider > div:nth-child(2) p:nth-child(1){
+   color: rgb(122, 122, 122);
+   font-size: 2rem;
+   margin-top: .5rem;
+}
+.three .body .divider > div:nth-child(2) h3{
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+.three .body .divider > div:nth-child(2) p:last-child{
+   color: rgb(122, 122, 122);
+   font-size: 2rem;
+   
+}
+
+.body .first-box h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.body .first-box form > div{
+   padding: 1rem 0; 
+}
+.body .first-box form > div label{
+    font-size: 1.5rem;
+}
+.body .first-box form > div input{
+    margin-right: 1rem;
+    padding: .5rem;
+}
+
+.body .first-box{
+    border-bottom: .5rem solid #eee;
+}
+
+.four .body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+.four .body .box .divider .box-inner img{
+    width: 100%;
+}
+.four .body .box .divider .box-inner{
+    position: relative;
+}
+.four .body .box .divider .box-inner a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: #000;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.four .body .box-first form > div {
+    padding: 1rem 0; 
+}
+
+.four .body .box-first form > div input{
+    margin-right: 1rem;
+    padding: .5rem;
+}
+
+.four .body .box-first form > div label{
+    font-size: 1.5rem;
+}
+
+.four .body .box .divider > div:last-child p:first-child {
+    font-size: 2rem;
+    color: rgb(122, 122, 122);
+    margin-bottom: .5rem;
+}
+.four .body .box .divider > div:last-child h3{
+    font-weight: bold;
+    margin-top: 0;
+}
+.four .body .box .divider > div:last-child p:last-child{
+    font-size: 1.5rem;
+    color: rgb(122, 122, 122);
+}
+
+
+
+
+
+
