@@ -1,2 +1,3 @@
 created a responsive page for samuria
-Footer added to index page
+Footer added to index page issue fixed
+
